@@ -11,3 +11,11 @@ for key, value in dct.items():
 
 print("The key with the maximum value is: ", max_key)
 print("The value of this key(max) is: ", max_value)
+
+# time complexity --> O(n)
+# space complexity --> O(1) --> only 2 extra variables are used
+
+# another way to initialize the max key and value is,
+# first_key = list(dct.keys())[0]
+# max_key = first_key
+# max_value = dct[first_key]
