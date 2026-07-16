@@ -7,3 +7,6 @@ for ch in string:
         count = count + 1
 
 print("The no. of vowels is: ", count)
+
+# time complexity --> O(n)
+# space complexity --> O(1)
